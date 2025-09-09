@@ -39,6 +39,9 @@ app.get('/', async (req, res) => {
   }
 });
 
+app.get("/" , (req,res)=>{
+    res.send("server is live")
+})
 
 
 app.listen(port , ()=>{
