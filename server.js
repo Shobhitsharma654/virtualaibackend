@@ -22,8 +22,8 @@ app.use(
   })
 );
 
-app.use(cookieParser())
 app.use(express.json())
+app.use(cookieParser())
 
 
 app.use("/api/auth" , authRouter)
@@ -43,5 +43,5 @@ app.get('/', async (req, res) => {
 
 app.listen(port , ()=>{
     connectDB()
-    console.log("Server is started")
+    console.log("Server is started on port 8000")
 })
