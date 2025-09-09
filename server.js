@@ -45,3 +45,5 @@ app.listen(port , ()=>{
     connectDB()
     console.log("Server is started on port 8000")
 })
+
+
