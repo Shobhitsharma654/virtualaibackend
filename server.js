@@ -15,8 +15,8 @@ const port = process.env.PORT || 8000
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
-      "https://virtualaiassistant-mu.vercel.app"
+      "http://localhost:5173", 
+      "https://virtualaiassistant-frontend.vercel.app"
     ],
     credentials: true,
   })
