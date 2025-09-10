@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const geminiResponse = async (command,assistantName,userName) => {
   try {
-    // const apiUrl = process.env.GEMINI_API_URL;
+    const apiUrl = process.env.GEMINI_API_URL;
     const apiKey = process.env.GEMINI_API_KEY;
    
     

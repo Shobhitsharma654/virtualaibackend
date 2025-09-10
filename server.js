@@ -9,13 +9,13 @@ import geminiResponse from "./gemini.js"
 dotenv.config()
 
 const app= express()
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 7000
 
 
 app.use(
   cors({
     origin: [
-      "http://localhost:5173", 
+      "http://localhost:5173",
       "https://virtualaiassistant-frontend.vercel.app"
     ],
     credentials: true,
