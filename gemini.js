@@ -55,7 +55,7 @@ now your userInput: ${command}
 
 
     const response = await axios.post(
-      apiKey,
+     `${apiUrl}?key=${apiKey}`,
       {
         "contents": [
           {
