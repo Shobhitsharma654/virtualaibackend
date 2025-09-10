@@ -26,7 +26,7 @@ Your task is to understand the user's natural language input and respond with a 
 
 Instructions:
 - "type": determine the intent of the user.
-- "userinput": original sentence the user spoke.
+- "userInput": original sentence the user spoke.
 - "response": a short voice-friendly reply, e.g., "Sure, playing it now", "Here's what I found", "Today is Tuesday", etc.
 
 Type meanings:
@@ -46,10 +46,10 @@ aur agar koi aisa question puchta hai jiska answer time pata hai uso bhi general
 
 Important:
 - Use ${userName} if someone asks "Who created you?"
-- Only respond with the JSON object, nothing else.
+- Only respond with the **pure JSON** object, nothing else.
 
 
-now your userInput: ${command}
+Now your userInput: ${command}
   `;
 
 
